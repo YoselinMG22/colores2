@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores en CSS</title>
+    <style>
+        /* Asignando colores de fondo y texto*/
+        body {
+            background-color: papayawhip; /* Color de fondo por nombre */
+            color: #00008B; /* Texto con color en hexadecimal */
+        }
+
+        h1 {
+            color: rgb(255, 69, 0); /* RGB para color naranja */
+        }
+
+        p {
+            color: rgba(0, 0, 139, 0.7); /* RGBA para texto semitransparente */
+        }
+
+        .highlight {
+            background-color: hsl(240, 100%, 27%); /* HSL para un color específico */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Colores en CSS</h1>
+    <p>Este es un párrafo con texto azul oscuro con un 70% opaco</p>
+    <p class="highlight">Este párrafo tiene un fondo con un color definido usando HSL.</p>
+</body>
+</html>
